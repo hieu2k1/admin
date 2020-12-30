@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+<title>admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="js/jquery2.0.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="js/scripts.js"></script>
+</head>
+<body>
+<section id="container">
+<header class="header fixed-top clearfix">
+<div class="brand">
+    <a href="index.html" class="logo">
+        ICE CREAM
+    </a>
+    <div class="sidebar-toggle-box">
+        <div class="fa fa-bars"></div>
+    </div>
+</div>
+
+<div class="nav notify-row" id="top_menu">
+    <ul class="nav top-menu">
+        <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-tasks"></i>
+                <span class="badge bg-success">8</span>
+            </a>
+            <ul class="dropdown-menu extended tasks-bar">
+                <li>
+                    <p class="">You have 8 pending tasks</p>
+                </li>
+                <li class="external">
+                    <a href="#">See All Tasks</a>
+                </li>
+            </ul>
+        </li>
+
+        <li id="header_inbox_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-envelope-o"></i>
+                <span class="badge bg-important">4</span>
+            </a>
+            <ul class="dropdown-menu extended inbox">
+                <li>
+                    <p class="red">You have 4 Mails</p>
+                </li>
+                <li>
+                    <a href="#">See all messages</a>
+                </li>
+            </ul>
+        </li>
+
+        <li id="header_notification_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-bell-o"></i>
+                <span class="badge bg-warning">3</span>
+            </a>
+            <ul class="dropdown-menu extended notification">
+                <li>
+                    <p>Notifications</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<div class="top-nav clearfix">
+    <ul class="nav pull-right top-menu">
+        <li>
+            <input type="text" class="form-control search" placeholder=" Search">
+        </li>
+
+        <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <img alt="" src="images/choidan.jpg">
+                <span class="username">Thích Chơi Đàn</span>
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu extended logout">
+                <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</header>
+
+<aside>
+    <div id="sidebar" class="nav-collapse">
+        <!-- sidebar menu start-->
+        <div class="leftside-navigation">
+            <ul class="sidebar-menu" id="nav-accordion">
+                <li>
+                    <a class="active" href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="javascript:">
+                        <i class="fa fa-book"></i>
+                        <span>Quản Lý</span>
+                    </a>
+                    <ul class="sub">
+						<li><a href="#">Quản lý nhân viên</a></li>
+						<li><a href="#">Quản lý hàng</a></li>
+                        <li><a href="#">Quản lý khách</a></li>
+                        <li><a href="#">Quản lý hóa đơn</a></li>
+                        <li><a href="#">Quản lý nguyên liệu</a></li>
+                    </ul>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="javascript:">
+                        <i class="fa fa-th"></i>
+                        <span>Báo Cáo</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="#">Báo cáo nhân viên</a></li>
+                        <li><a href="#">Báo cáo hàng</a></li>
+                        <li><a href="#">Báo cáo khách</a></li>
+                        <li><a href="#">Báo cáo hóa đơn</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="sub-menu">
+                    <a href="javascript:">
+                        <i class="fa fa-glass"></i>
+                        <span>Extra</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="registration.html">Registration</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <i class="fa fa-user"></i>
+                        <span>Login Page</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="#">Thay đổi thông tin</a></li>
+                        <li><a href="login.html">Thoát</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>
+</section>
+</body>
+</html>
